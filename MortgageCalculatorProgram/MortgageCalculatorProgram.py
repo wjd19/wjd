@@ -14,7 +14,7 @@ else:
     print("\nAwesome.\n")
 
 #get more key info for calculations -- going to assume user has a fixed rate mortgage
-loan_rate = float(input("\nWhat is your yearly mortgage interest rate?\n")) / 100
+loan_rate = float(input("What is your yearly mortgage interest rate?\n")) / 100
 monthly_loan_rate = loan_rate / 12
 loan_length = float(input("\nHow many years until your loan must be paid off in full?\n"))
 num_monthly_payments = 12 * loan_length
