@@ -38,6 +38,7 @@ hoa_fees = 0
 
 if answer == "yes":
     property_taxes = round(float(input("\nEnter your monthly property tax amount:\n")), 2)
+    #printing empty line for cleaner look on terminal
     print('')
     hoa_fees = round(float(input("Enter your monthly HOA fees:\n")), 2)
     total_monthly_payment = round(fixed_rate_payments + hoa_fees + property_taxes, 2)
@@ -45,7 +46,7 @@ if answer == "yes":
     print(f"\nYour total monthly payment -- including mortgage, HOA fees, and property taxes --\
  is ${total_monthly_payment}.\n")
 
-    print("\nThank you for using our mortgage calculator. Have a great day.")
+    print("Thank you for using our mortgage calculator. Have a great day.")
 
 else:
     print("\nSince there is nothing else, thank you for using our mortgage calculator. Have a great day.")
